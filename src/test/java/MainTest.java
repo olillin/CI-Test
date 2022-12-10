@@ -7,4 +7,8 @@ public class MainTest {
     public void add1Test() {
         assertEquals(2, Main.add1(1));
     }
+    @Test
+    public void breakingTest() {
+        assertEquals(1, 2);
+    }
 }
