@@ -1,0 +1,1 @@
+![Codecov](https://img.shields.io/codecov/c/github/OliTheHoodieBoi/CI-Test?token=81a5c23c-d3b5-4153-ae16-06a65d612589)
