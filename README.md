@@ -6,6 +6,7 @@ I did it!
 codecov:
   bot: OliTheHoodieBoi
 ```
-2. Config GitHub actions workflow with [Gradle Build Action](https://github.com/marketplace/actions/gradle-build-action) and [Codecov](https://github.com/marketplace/actions/codecov) actions. *[See the workflow file](.github/workflows/gradle.yml)*
+2. Config GitHub Actions workflow with [Gradle Build Action](https://github.com/marketplace/actions/gradle-build-action) and [Codecov](https://github.com/marketplace/actions/codecov) actions. *[See the workflow file](.github/workflows/gradle.yml)*
 3. Configure [build.gradle](build.gradle) to generate coverage reports using [JaCoCo](https://docs.gradle.org/current/userguide/jacoco_plugin.html).
-4. Get badge/shield from https://app.codecov.io/gh/OliTheHoodieBoi/CI-Test/settings/badge. Alternatively https://shields.io/category/coverage
+4. Run `git update-index --chmod=+x gradlew` to make `gradlew` runnable by GitHub Actions and avoid `Error: Gradle script '/home/runner/**/gradlew' is not executable.`
+5. Get badge/shield from https://app.codecov.io/gh/OliTheHoodieBoi/CI-Test/settings/badge. Alternatively https://shields.io/category/coverage
